@@ -46,10 +46,10 @@ void loop(){
   lcd.setCursor(0,0);
   lcd.print("jam Digital");
   lcd.setCursor(0,1);
-  lcd.print(jam,HEX);
+  lcd.print(jam,DEC);
   lcd.print(":");
-  lcd.print(menit,HEX);
+  lcd.print(menit,DEC);
   lcd.print(":");
-  lcd.print(detik,HEX);
+  lcd.print(detik,DEC);
   delay(500);
 }
